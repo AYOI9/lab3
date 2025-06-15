@@ -79,10 +79,6 @@ public class XorArray : Array
 }
 
 // Пример использования
-class Program
-{
-    static void Main()
-    {
         Console.WriteLine("SortArray:");
         var sortArr = new SortArray(new[] { 3, 1, 2 });
         sortArr.ForEach();
@@ -98,5 +94,3 @@ class Program
 
         var addedXor = xorArr.Add(new[] { 5, 3 });
         Console.WriteLine("После Add: " + string.Join(", ", addedXor));
-    }
-}
